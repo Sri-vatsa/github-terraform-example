@@ -9,10 +9,9 @@ terraform {
       version = "3.0.1"
     }
   }
-  #required_version = "~> 0.14"
 
   backend "remote" {
-    organization = "yummkin"
+    organization = "REPLACE_ME"
 
     workspaces {
       name = "gh-actions-demo"
